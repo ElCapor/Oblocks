@@ -96,24 +96,3 @@ oz_insight();
 
 
 }
-/*
-     FILE ARCHIVED ON 14:40:05 May 09, 2014 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 18:01:52 Jun 30, 2020.
-     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
-
-     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
-     SECTION 108(a)(3)).
-*/
-/*
-playback timings (ms):
-  PetaboxLoader3.datanode: 187.872 (5)
-  CDXLines.iter: 18.16 (3)
-  esindex: 0.015
-  captures_list: 171.093
-  exclusion.robots: 0.131
-  load_resource: 307.156
-  RedisCDXSource: 5.138
-  PetaboxLoader3.resolve: 131.203 (2)
-  exclusion.robots.policy: 0.121
-  LoadShardBlock: 102.237 (3)
-*/
