@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Panel - Manage Catalog</title>
+</head>
+<style>
+    table, th, td {
+      border:1px solid black;
+    }
+</style>
+<body>
+    <table>
+        <tr>
+          <th>ID</th>
+          <th>Name</th>
+          <th>Description</th>
+          <th>Sales</th>
+          <th>Thumbnail</th>
+          <th>Type</th>
+          <th>Creator</th>
+        </tr>
+        {% for asset in assets %}
+        <tr>
+            <th>{{asset['id']}}</th>
+            <th>{{asset['name']}}</th>
+            <th>{{asset['description']}}</th>
+            <th>{{asset['sales']}}</th>
+            <th>{{asset['thumbnail']}}</th>
+            <th>{{asset['type']}}</th>
+            <th>{{asset['creator']}}</th>
+        </tr>
+        {% endfor %}
+      </table> 
+</body>
+</html>
